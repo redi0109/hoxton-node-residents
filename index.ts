@@ -1,3 +1,4 @@
-let myName = 'redi'
-console.log(`Hello, ${myName}`)
-let redi
+import express from "express";
+import cors from "cors";
+import { housesData, residentsData } from "./data";
+
