@@ -1,7 +1,7 @@
 
 type House = {
     id: number;
-    adress: string;
+    address: string;
     type: string;
     residentId: number;
 }
@@ -10,31 +10,31 @@ type House = {
 export const housesData : House[] = [
     {
         id: 1,
-        adress: 'Mihal Grameno',
+        address: 'Mihal Grameno',
         type: 'House',
         residentId: 2
     },
     {
         id: 2,
-        adress: 'Tregu Elektrik',
+        address: 'Tregu Elektrik',
         type: 'Flat',
         residentId: 1
     },
     {
         id: 3,
-        adress: 'Ali Demi',
+        address: 'Ali Demi',
         type: 'Flat',
         residentId: 3
     },
     {
         id: 4,
-        adress: 'Allias',
+        address: 'Allias',
         type: 'Farm',
         residentId: 2
     },
     {
         id: 5,
-        adress: 'Laprake',
+        address: 'Laprake',
         type: 'Farm',
         residentId: 3
     }
